@@ -1,0 +1,73 @@
+.button {
+	text-align: center;
+
+	line-height: 1;
+	padding: 13px 20px;
+	border: 2px solid $color__black-main;
+	font-size: 14px;
+	font-weight: 500;
+	color: $color__black-main;
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: all .3s;
+
+	&:visited,
+	&:focus {
+		color: $color__black-main;
+	}
+	&:hover {
+		text-decoration: none;
+		background: $color__black-main;
+		color: $color__white;
+	}
+
+	// Size
+	&.button--mini {
+		padding: 7px 10px;
+		font-size: 12px;
+	}
+	&.button--small {
+		padding: 10px 15px;
+		font-size: 12px;
+	}
+	&.button--large {
+		padding: 16px 25px;
+		font-size: 17px;
+	}
+	&.button--block {
+		display: block;
+	}
+
+	// Border style
+	&.button--solid {
+		border-style: solid;
+	}
+	&.button--dashed {
+		border-style: dashed;
+	}
+	&.button--dotted {
+		border-style: dotted;
+	}
+	&.button--double {
+		border-style: double;
+	}
+	&.button--inset {
+		border-style: inset;
+	}
+	&.button--outset {
+		border-style: outset;
+	}
+
+	// Icon
+	&.button--icon {
+		i {
+			margin-right: 7px;
+		}
+	}
+	&.button--icon-right {
+		i {
+			margin: 0 0 0 5px;
+		}
+	}
+}

@@ -1,0 +1,88 @@
+.style-1 {
+	&.edu_countdown{
+		line-height: 0;
+		.countdown-row{
+			display: inline-block;
+			.countdown-section {
+				display: block;
+				float: left;
+				font-size: 75%;
+				text-align: center;
+				background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+				border-radius: 100%;
+				box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.6) inset;
+				color: $color__white;
+				margin-right: 30px;
+				margin-bottom: 30px;
+				padding: 20px;
+				width: 120px;
+				height: 120px;
+
+				&:last-child {
+					margin-right: 0;
+				}
+
+				.countdown-amount {
+					font-size: 48px;
+					line-height: 1;
+					display: block;
+					margin-bottom: 8px;
+					font-family: 'Roboto';
+				}
+				.countdown-period {
+					display: block;
+					font-size: 14px;
+					text-transform: uppercase;
+					position: relative;
+					top: 11px;
+				}
+			}
+		}
+	}
+}
+
+.style-2{
+	&.edu_countdown {
+		margin-top: 15px;
+		margin-bottom: 15px;
+
+		.countdown-section {
+			display: inline-block;
+			min-width: 60px;
+			text-align: center;
+			margin-left: 38px;
+
+			&:first-of-type {
+				margin-left: 0;
+			}
+		}
+
+		.countdown-amount {
+			font-size: 48px;
+			line-height: 0.63;
+			color: #8bc34a;
+			width: 100%;
+			display: block;
+			margin-bottom: 13px;
+		}
+		.countdown-period {
+			font-family: Roboto;
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 1;
+			text-align: center;
+			color: #212121;
+			text-transform: uppercase;
+		}
+	}
+}
+
+.edu_countdown {
+	&.style-center {
+		text-align: center;
+	}
+
+	&.style-right {
+		float:right;
+	}
+}

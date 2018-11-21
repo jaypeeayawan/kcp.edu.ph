@@ -1,0 +1,17 @@
+.fitwp-image-select {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin: 0 10px 10px 0;
+	border: 3px solid #d8d8d8;
+	border-radius: 3px;
+	padding: 1px;
+}
+.fitwp-image-select:hover,
+.fitwp-image-select--active {
+	border-color: #0074a2;
+}
+.fitwp-image-select:hover {
+	cursor: pointer;
+}

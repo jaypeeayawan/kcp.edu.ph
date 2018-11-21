@@ -1,0 +1,183 @@
+/* Icon box */
+
+.icon-box {
+    /* Content */
+    .icon-box__title {
+        font: bold 18px 'Roboto Condensed', sans-serif;
+        text-transform: uppercase;
+        color: $color__black-main;
+        margin-top: 25px;
+    }
+    .icon-box__line {
+        display: block;
+        content: '';
+        position: relative;
+        width: 20px;
+        height: 2px;
+        background: $color__black-main;
+        margin: 15px 0 11px;
+    }
+    .icon-box__text {
+        color: $color__text-screen;
+        clear: both;
+        padding-top: 10px;
+    }
+    /* Content right */
+    .icon-box__content--right {
+        text-align: right;
+        .icon-box__line {
+            float: right;
+        }
+    }
+    /* Content center */
+    .icon-box__content--center {
+        text-align: center;
+        .icon-box__line {
+            margin: 15px auto;
+        }
+    }
+    /* Icon */
+    .icon-box__icon--icon {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 2px solid transparent;
+        text-align: center;
+        transition: all .3s;
+        position: relative;
+        &:hover {
+            &:after {
+                opacity: 0;
+                z-index: 1;
+                transition: 1s ease;
+                transform: scale(1.4);
+            }
+        }
+        i {
+            font-size: 36px;
+            line-height: 76px;
+        }
+    }
+    /* image hover*/
+    &.icon-box__hover:hover {
+        .icon-box__icon--image {
+            img.img_active {
+                display: none;
+            }
+            img.img_hover {
+                display: inline-block!important;
+            }
+        }
+    }
+    /* Icon position */
+    &.icon-box__icon--top-center .icon-box__icon {
+        text-align: center;
+        margin: 0 auto;
+    }
+    &.icon-box__icon--top-right .icon-box__icon {
+        text-align: right;
+    }
+    &.icon-box__icon--float-right {
+        position: relative;
+        padding-right: 100px;
+        .icon-box__icon {
+            position: absolute;
+            right: 0;
+            top: 5px;
+        }
+        .icon-box__line {
+            float: right;
+        }
+        .icon-box__content {
+            .icon-box__title {
+                margin-top: 0;
+            }
+        }
+    }
+    &.icon-box__icon--float-left {
+        position: relative;
+        padding-left: 100px;
+        .icon-box__icon {
+            position: absolute;
+            left: 0;
+            top: 5px;
+        }
+        .icon-box__line {
+            float: left;
+        }
+        .icon-box__content {
+            .icon-box__title {
+                margin-top: 0;
+            }
+        }
+    }
+    &.icon-box__icon--icon-left {
+        .icon-box__title {
+            margin-top: 0;
+        }
+        .icon-box__icon--icon {
+            margin-right: 10px;
+            float: left;
+            display: block;
+            width: inherit;
+            height: inherit;
+            border-radius: 0;
+            border: none;
+            text-align: inherit;
+            transition: all .3s;
+            position: static;
+            line-height: 1.4;
+            i {
+                font-size: 18px;
+                line-height: 0;
+            }
+        }
+    }
+    &.icon-box__icon--icon-right {
+        .icon-box__title {
+            margin-top: 0;
+        }
+        .icon-box__icon--icon {
+            margin-left: 10px;
+            float: right;
+            display: block;
+            width: inherit;
+            height: inherit;
+            border-radius: 0;
+            border: none;
+            text-align: inherit;
+            transition: all .3s;
+            position: static;
+            line-height: 1.4;
+            i {
+                font-size: 18px;
+                line-height: 0;
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .icon-box__icon--float-right,
+    .icon-box__icon--float-left {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .icon-box__icon--top-left,
+    .icon-box__icon--top-center {
+        margin-bottom: 20px;
+    }
+    .icon-box__content--right,
+    .icon-box__content--left {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 375px) {
+    .icon-box__content--right,
+    .icon-box__content--left {
+        font-size: 15px;
+    }
+}

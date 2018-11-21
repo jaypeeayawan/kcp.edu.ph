@@ -1,0 +1,14 @@
+<wpml-config>
+    <admin-texts>
+        <key name="theme_mods_edupro">
+            <key name="pagination_load_more_text"/>
+            <key name="portfolio_page_title"/>
+            <key name="portfolio_all_text"/>
+            <key name="event_page_title"/>
+            <key name="title_contact_form_event"/>
+            <key name="courses_page_title"/>
+            <key name="courses_title_related"/>
+            <key name="footer_copyright_text_color"/>
+        </key>
+    </admin-texts>
+</wpml-config>

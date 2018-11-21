@@ -1,0 +1,23 @@
+.counter_up{
+	color: $color__white;
+	text-align: center;
+	overflow: hidden;
+
+	.counter{
+		padding-top: 13px;
+	  	font-size: 48px;
+	    display: inline-block;
+	    font-weight: 700;
+	    text-align: center;
+	    border: 2px solid $color__white;
+	    border-radius: 100%;
+	    height: 120px;
+	    width: 120px;
+	    margin-bottom: 16px;
+	    font-family: "roboto condensed";
+	}
+	.counter_text{
+		font-size: 24px;
+	}
+}
+

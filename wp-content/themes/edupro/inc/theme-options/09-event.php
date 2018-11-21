@@ -1,0 +1,182 @@
+<?php
+/**
+ * Options event
+ */
+return array(
+	'id'             => 'event',
+	'title'          => esc_html__( 'Events', 'edupro' ),
+	'settings_pages' => 'theme-options',
+	'tab'            => 'event',
+	'tabs'           => array(
+		'event-archive' => array(
+			'label' => esc_html__( 'Archive', 'edupro' ),
+			'icon'  => 'dashicons-category',
+		),
+		'event-single'  => array(
+			'label' => esc_html__( 'Single', 'edupro' ),
+			'icon'  => 'dashicons-admin-post',
+		),
+	),
+	'tab_style'      => 'box',
+	'tab_wrapper'    => true,
+	'fields'         => array(
+		array(
+			'name' => esc_html__( 'Image Banner Top', 'edupro' ),
+			'id'   => 'event_header_image',
+			'type' => 'file_input',
+			'tab'  => 'event-archive',
+		),
+		array(
+			'name' => esc_html__( 'Page title', 'edupro' ),
+			'id'   => 'event_page_title',
+			'type' => 'text',
+			'std'  => esc_html__( 'Events', 'edupro' ),
+			'size' => 100,
+			'tab'  => 'event-archive',
+		),
+		array(
+			'id'   => 'event_hidden_filter',
+			'name' => esc_html__( 'Hide Filter', 'edupro' ),
+			'type' => 'checkbox',
+			'tab'  => 'event-archive',
+		),
+		array(
+			'id'   => 'event_hidden_date',
+			'name' => esc_html__( 'Hide Date & Month', 'edupro' ),
+			'type' => 'checkbox',
+			'tab'  => 'event-archive',
+		),
+		array(
+			'id'   => 'event_hidden_time',
+			'name' => esc_html__( 'Hide Time', 'edupro' ),
+			'type' => 'checkbox',
+			'tab'  => 'event-archive',
+		),
+		array(
+			'id'   => 'event_hidden_address',
+			'name' => esc_html__( 'Hide Address', 'edupro' ),
+			'type' => 'checkbox',
+			'tab'  => 'event-archive',
+		),
+		array(
+			'id'   => 'event_hidden_description',
+			'name' => esc_html__( 'Hide Description', 'edupro' ),
+			'type' => 'checkbox',
+			'tab'  => 'event-archive',
+		),
+		array(
+			'name' => esc_html__( 'Content limit (words)', 'edupro' ),
+			'id'   => 'event_content_limit',
+			'type' => 'text',
+			'std'  => 30,
+			'size' => 10,
+			'visible' => array( 'event_hidden_description', false ),
+			'tab'  => 'event-archive',
+		),
+		array(
+			'name'     => esc_html__( 'Button Join Now Alignment', 'edupro' ),
+			'id'       => 'event_join_now_align',
+			'type'     => 'select',
+			'options'  => array(
+				'left'  => esc_html__( 'Left', 'edupro' ),
+				'right' => esc_html__( 'Right', 'edupro' ),
+			),
+			'multiple' => false,
+			'std'      => 'left',
+			'tab'      => 'event-archive',
+		),
+		array(
+			'name'     => esc_html__( 'Layout', 'edupro' ),
+			'id'       => 'event_archive_layout',
+			'type'     => 'select',
+			'options'  => array(
+				'grid' => esc_html__( 'Grid', 'edupro' ),
+				'list' => esc_html__( 'List', 'edupro' ),
+			),
+			'multiple' => false,
+			'std'      => 'grid',
+			'tab'      => 'event-archive',
+		),
+
+		array(
+			'name'     => esc_html__( 'By Default, Show:', 'edupro' ),
+			'id'       => 'event_archive_sort',
+			'type'     => 'select',
+			'options'  => array(
+				'happening' => esc_html__( 'Happening', 'edupro' ),
+				'upcoming'  => esc_html__( 'Upcoming', 'edupro' ),
+				'expired'   => esc_html__( 'Expired', 'edupro' ),
+				'all'       => esc_html__( 'All Event', 'edupro' ),
+			),
+			'multiple' => false,
+			'std'      => 'all',
+			'tab'      => 'event-archive',
+		),
+		array(
+			'name'    => esc_html__( 'Sidebar Layout', 'edupro' ),
+			'id'      => 'event_single_layout',
+			'type'    => 'image_select',
+			'options' => array(
+				'sidebar-left'  => 'http://i.imgur.com/Y2sxQ2R.png',
+				'sidebar-right' => 'http://i.imgur.com/h7ONxhz.png',
+			),
+			'tab'     => 'event-single',
+			'std'     => 'sidebar-right',
+		),
+		array(
+			'id'   => 'event_single_start_time',
+			'name' => esc_html__( 'Hide Start Time', 'edupro' ),
+			'type' => 'checkbox',
+			'tab'  => 'event-single',
+		),
+		array(
+			'id'   => 'event_single_finish_time',
+			'name' => esc_html__( 'Hide Finish Time', 'edupro' ),
+			'type' => 'checkbox',
+			'tab'  => 'event-single',
+		),
+		array(
+			'id'   => 'event_single_address',
+			'name' => esc_html__( 'Hide Address', 'edupro' ),
+			'type' => 'checkbox',
+			'tab'  => 'event-single',
+		),
+		array(
+			'id'   => 'event_single_ticket_price',
+			'name' => esc_html__( 'Hide Ticket Price', 'edupro' ),
+			'type' => 'checkbox',
+			'tab'  => 'event-single',
+		),
+		array(
+			'name' => esc_html__( 'Currency Ticket Price', 'edupro' ),
+			'id'   => 'event_currency_ticket_price',
+			'type' => 'text',
+			'std'  => '$',
+			'size' => 10,
+			'visible' => array( 'event_single_ticket_price', false ),
+			'tab'  => 'event-single',
+		),
+		array(
+			'name' => esc_html__( 'Contact Form Title', 'edupro' ),
+			'id'   => 'title_contact_form_event',
+			'type' => 'text',
+			'std'  => esc_html__( '', 'edupro' ),
+			'size' => 30,
+			'tab'  => 'event-single',
+		),
+		array(
+			'name' => esc_html__( 'Shortcode Contact Form', 'edupro' ),
+			'id'   => 'shortcode_contact_form_event',
+			'type' => 'text',
+			'std'  => esc_html__( '', 'edupro' ),
+			'size' => 30,
+			'tab'  => 'event-single',
+		),
+		array(
+			'id'   => 'event_single_share',
+			'name' => esc_html__( 'Hide Share Icons', 'edupro' ),
+			'type' => 'checkbox',
+			'tab'  => 'event-single',
+		),
+	),
+);

@@ -1,0 +1,43 @@
+.pricing-table {
+    .pricing-heading {
+        background-color: #009688;
+        text-align: center;
+        padding: 25px;
+        h4 {
+            font-size: 30px;
+            color: $color__white;
+            margin: 0;
+            padding: 0;
+            line-height: 1;
+            margin-bottom: 25px;
+        }
+        h3 {
+            color: $color__white;
+            font-size: 60px;
+            margin: 0;
+            padding: 0;
+            line-height: 1;
+            span {
+                font-size: 36px;
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .pricing-table .pricing-heading {
+        h3 {
+            font-size: 40px;
+        }
+        h4 {
+            font-size: 23px;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+@media(max-width: 480px) {
+    .pricing-table {
+        margin-bottom: 30px;
+    }
+}

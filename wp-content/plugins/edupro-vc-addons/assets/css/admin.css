@@ -1,0 +1,31 @@
+.vc_shortcodes_container > .wpb_element_wrapper > .vc_container_for_children, .vc_shortcodes_container > .wpb_element_wrapper > .vc_container_for_children .wpb_column_container {
+  background-color: #F5F5F5;
+  padding: 10px 5px; }
+
+.fitwp-image-select {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin: 0 10px 10px 0;
+  border: 3px solid #d8d8d8;
+  border-radius: 3px;
+  padding: 1px; }
+
+.fitwp-image-select:hover,
+.fitwp-image-select--active {
+  border-color: #0074a2; }
+
+.fitwp-image-select:hover {
+  cursor: pointer; }
+
+.vc_edit_form_elements .fitwp-number-input {
+  width: 5em;
+  margin-right: 5px; }
+
+.vc_edit_form_elements .fitwp-number-suffix {
+  width: 5em;
+  height: 28px;
+  padding: 0 6px;
+  vertical-align: top; }
+

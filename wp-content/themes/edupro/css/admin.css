@@ -1,0 +1,53 @@
+.img-full .rwmb-image-select{
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+.footer-columns .rwmb-image-select{
+    height: auto;
+    width: 106px;
+    padding: 0;
+}
+
+.img-full .rwmb-image-select img,
+.footer-columns .rwmb-image-select img{
+    display: block;
+    height: auto;
+}
+
+.edupro_mega_menu_meta_box{
+    position: relative;
+}
+
+.edupro_mega_menu_meta_box table{
+    width: 100%;
+    position: relative;
+}
+
+.edupro_mega_menu_meta_box input[type=checkbox]{
+   float: right;
+}
+
+.edupro_mega_menu_meta_box .spinner {
+    position: absolute;
+    right: 75px;
+    bottom: 20px;
+}
+
+.post-type-sfwd-courses #categorydiv.postbox {
+    display: none;
+}
+
+.appearance_page_theme-options .rwmb-settings-no-boxes .submit{
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.inline-edit-sfwd-courses.quick-edit-row .category-checklist,
+.inline-edit-sfwd-courses.quick-edit-row .inline-edit-categories-label {
+    display:none;
+}
+
+.inline-edit-sfwd-courses.quick-edit-row .category-checklist + .inline-edit-categories-label {
+    display: block;
+}

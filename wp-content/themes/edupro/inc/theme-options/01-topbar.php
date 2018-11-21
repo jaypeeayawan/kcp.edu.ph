@@ -1,0 +1,102 @@
+<?php
+return array(
+	'id'             => 'topbar_general',
+	'title'          => esc_html__( 'Top bar General', 'edupro' ),
+	'settings_pages' => 'theme-options',
+	'tab'            => 'topbar',
+	'fields'         => array(
+		// SHOW TOPBAR
+		array(
+			'type' => 'custom_html',
+			'std'  => wp_kses_post( sprintf( __( 'The topbar left and right are <i>2 sidebars</i>: <b>Topbar left</b> and <b>Topbar right</b>. To add content to the topbar, please go to <a href="%s">Appearance &rarr; Widgets</a>.<br>Recommended content for the topbar: text, custom menu, social links and login/register links.', 'edupro' ), esc_url( 'widgets.php' ) ) ),
+		),
+		array(
+			'id'   => 'show_topbar',
+			'name' => esc_html__( 'Show Topbar', 'edupro' ),
+			'type' => 'checkbox',
+		),
+		array(
+			'id'      => 'bg_topbar_color',
+			'name'    => esc_html__( 'Background Color', 'edupro' ),
+			'type'    => 'color',
+			'section' => 'colors',
+			'tab'     => 'custom-color',
+		),
+		array(
+			'id'      => 'txt_menu_topbar_color',
+			'name'    => esc_html__( 'Text Color', 'edupro' ),
+			'type'    => 'color',
+			'section' => 'colors',
+			'tab'     => 'custom-color',
+		),
+		array(
+			'id'      => 'hover_txt_menu_topbar_color',
+			'name'    => esc_html__( 'Text Hover Color', 'edupro' ),
+			'type'    => 'color',
+			'section' => 'colors',
+			'tab'     => 'custom-color',
+		),
+		array(
+			'name'     => esc_html__( 'Font Size', 'edupro' ),
+			'id'       => "txt_menu_topbar_size",
+			'type'     => 'select',
+			'options'  => EduPro_Option::list_font_size(),
+			'multiple' => false,
+			'std'      => '13',
+		),
+		array(
+			'id'      => 'icon_menu_topbar_color',
+			'name'    => esc_html__( 'Icon Color', 'edupro' ),
+			'type'    => 'color',
+			'section' => 'colors',
+			'tab'     => 'custom-color',
+		),
+		array(
+			'id'      => 'hover_icon_menu_topbar_color',
+			'name'    => esc_html__( 'Icon Hover Color', 'edupro' ),
+			'type'    => 'color',
+			'section' => 'colors',
+			'tab'     => 'custom-color',
+		),
+		array(
+			'type' => 'heading',
+			'name' => esc_html__( 'Submenu', 'edupro' ),
+		),
+		array(
+			'id'      => 'bg_sub_topbar_color',
+			'name'    => esc_html__( 'Background Color', 'edupro' ),
+			'type'    => 'color',
+			'section' => 'colors',
+			'tab'     => 'custom-color',
+		),
+		array(
+			'id'      => 'txt_submenu_topbar_color',
+			'name'    => esc_html__( 'Text Color', 'edupro' ),
+			'type'    => 'color',
+			'section' => 'colors',
+			'tab'     => 'custom-color',
+		),
+		array(
+			'id'      => 'hover_txt_submenu_topbar_color',
+			'name'    => esc_html__( 'Text Hover Color', 'edupro' ),
+			'type'    => 'color',
+			'section' => 'colors',
+			'tab'     => 'custom-color',
+		),
+		array(
+			'name'     => esc_html__( 'Font Size', 'edupro' ),
+			'id'       => "txt_submenu_topbar_size",
+			'type'     => 'select',
+			'options'  => EduPro_Option::list_font_size(),
+			'multiple' => false,
+			'std'      => '12',
+		),
+		array(
+			'id'      => 'border_submenu_topbar_color',
+			'name'    => esc_html__( 'Border Color', 'edupro' ),
+			'type'    => 'color',
+			'section' => 'colors',
+			'tab'     => 'custom-color',
+		),
+	),
+);

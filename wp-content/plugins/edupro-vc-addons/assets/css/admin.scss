@@ -1,0 +1,9 @@
+.vc_shortcodes_container>.wpb_element_wrapper> .vc_container_for_children {
+	&,.wpb_column_container {
+		background-color: #F5F5F5;
+		padding: 10px 5px;
+	}
+}
+
+@import "../../params/image_select/admin";
+@import "../../params/number/admin";

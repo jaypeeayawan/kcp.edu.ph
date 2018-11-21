@@ -1,0 +1,438 @@
+.register__form__1 {
+    padding: 30px;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    margin: 73px 0 30px;
+    .messenger {
+        margin-top: 10px !important;
+        p {
+            font-size: 14px;
+            color: #ffa600;
+            font-weight: bold;
+        }
+    }
+    .button {
+        border: none;
+        padding: 15px;
+        text-transform: uppercase;
+        font-family: 'roboto';
+        font-size: 14px;
+        color: $color__white;
+        background: $color__main;
+        width: 370px;
+        border-radius: 0;
+        transition: all .3s;
+        font-size: 14px;
+        font-weight: 500;
+        &:hover {
+            background: #59802f;
+        }
+    }
+    .error {
+        color: red;
+        margin-bottom: 18px;
+        color: green;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .alar-registration-heading {
+        font-weight: 700;
+        text-transform: uppercase;
+        display: block;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-family: 'Roboto Condensed';
+        font-weight: bold;
+        padding-bottom: 25px;
+    }
+    .ftxt {
+        display: block;
+        margin: 0 0 20px;
+        &:after {
+            clear: both;
+            display: block;
+            overflow: hidden;
+            content: "";
+        }
+        > {
+            label {
+                float: left;
+                width: 180px;
+            }
+            input {
+                border: 1px solid #ccc !important;
+                padding: 5px 20px !important;
+                width: 370px !important;
+                border-radius: 0 !important;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    #com_firstname {
+        float: right;
+        width: 170px !important;
+    }
+    #com_lastname {
+        float: left;
+        width: 170px !important;
+    }
+    .register__form__line {
+        margin: 33px 0;
+        div {
+            width: 370px;
+            height: 1px;
+            background: #dedede;
+            margin: 0 auto;
+        }
+    }
+    .register__form__register-now p {
+        font-size: 14px;
+        font-family: 'roboto';
+        color: $color__text-screen;
+    }
+}
+
+.register-form__2 {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    clear: both;
+    .messenger {
+        margin-top: 10px;
+        p {
+            font-size: 14px;
+            color: #ffa600;
+            font-weight: bold;
+        }
+    }
+    .edupro-loading-container {
+        background: transparent;
+    }
+    .edupro-login-container {
+        top: 0;
+    }
+    .register-input {
+        margin-bottom: 22px;
+        input {
+            background: none;
+        }
+    }
+    .register__submitform2 {
+        text-align: center;
+        .register__submit2 {
+            padding: 0;
+            width: 130px;
+            margin: 0 auto;
+            input {
+                width: 85%;
+            }
+        }
+    }
+    .button {
+        border: none;
+        text-transform: uppercase;
+        font-family: 'roboto';
+        font-size: 14px;
+        color: $color__white;
+        background: $color__main;
+        width: 130px;
+        border-radius: 0;
+        transition: all .3s;
+        &:hover {
+            background: #59802f;
+        }
+    }
+    .first-last {
+        overflow: hidden;
+        .register-input {
+            width: 220px;
+            float: left;
+            &:last-child {
+                float: right;
+            }
+        }
+    }
+    .edupro-login input[type="submit"] {
+        display: block;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .error {
+        color: red;
+        margin-bottom: 18px;
+        font-weight: bold;
+    }
+    .alar-registration-heading {
+        text-transform: uppercase;
+        display: block;
+        font-size: 30px;
+        font-family: 'Roboto Condensed';
+        font-weight: bold;
+        padding-bottom: 25px;
+    }
+    .register__form__register-now p {
+        font-size: 14px;
+        font-family: 'roboto';
+        color: $color__text-screen;
+    }
+}
+
+@media (max-width: 1024px) {
+    .register-form__2 {
+        .first-last .register-input {
+            width: 100%;
+        }
+    }
+    .register__form__4 .register__row {
+        width: 33% !important;
+    }
+}
+
+.register__form__3 {
+    width: 370px;
+    background: $color__white;
+    .register-input {
+        margin-bottom: 22px;
+    }
+    .edupro-login-container {
+        .mo-openid-app-icons {
+            a {
+                margin-right: 20px;
+                i {
+                    width: 40px;
+                    height: 40px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .edupro-or {
+        margin: auto 30px;
+        width: auto;
+    }
+    .wp-social-login-widget {
+        .wp-social-login-provider-list {
+            .wp-social-login-provider {
+                width: 42px;
+                height: 42px;
+                font-size: 18px;
+                margin-right: 20px;
+                position: relative;
+                left: 19%;
+            }
+        }
+    }
+    .messenger {
+        margin-top: 10px;
+        p {
+            font-size: 14px;
+            color: #ffa600;
+            font-weight: bold;
+        }
+    }
+    .title__register__form {
+        height: 73px;
+        background: $color__main;
+        h3 {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            color: $color__white;
+            position: relative;
+            top: 25px;
+            text-transform: uppercase;
+            font-size: 24px;
+            font-family: 'Roboto Condensed';
+            font-weight: bold;
+        }
+    }
+    #registration {
+        padding: 30px;
+        padding-bottom: 0;
+        display: block;
+        font-size: 12px;
+        text-align: center;
+        width: 370px;
+        .button {
+            text-transform: uppercase;
+            font-family: 'roboto';
+            color: $color__main;
+            background: $color__white;
+            border: 2px solid $color__main;
+            width: 310px !important;
+            border-radius: 0;
+            transition: all .3s;
+            font-size: 14px;
+            font-weight: 500;
+            &:hover {
+                background: $color__main;
+                border: 2px solid $color__main;
+                color: $color__white;
+            }
+        }
+        .error {
+            color: red;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .alar-registration-heading {
+            text-transform: uppercase;
+            display: block;
+            font-size: 30px;
+            font-family: 'Roboto Condensed';
+            font-weight: bold;
+            padding-bottom: 25px;
+        }
+        .ftxt {
+            display: block;
+            margin: 0 0 20px;
+            &:after {
+                clear: both;
+                display: block;
+                overflow: hidden;
+                content: "";
+            }
+            > {
+                label {
+                    float: left;
+                    width: 180px;
+                }
+                input {
+                    border: 1px solid #ccc !important;
+                    padding: 8px 20px !important;
+                    width: 310px !important;
+                    border-radius: 0 !important;
+                    margin-bottom: 10px;
+                    font-size: 13px;
+                }
+            }
+        }
+        .register__form__register-now p {
+            font-size: 14px;
+            font-family: 'roboto';
+            color: $color__text-screen;
+        }
+    }
+}
+
+@media(max-width: 480px) {
+    .register__form__3 {
+        width: 100%;
+        #registration {
+            width: 100% !important;
+            .button {
+                width: 100% !important;
+            }
+        }
+        .title__register__form h3 {
+            font-size: 20px;
+        }
+    }
+}
+
+@media(max-width: 375px) {
+    .register__form__3 {
+        width: 100%;
+        #registration {
+            width: 100% !important;
+            .button {
+                width: 100% !important;
+            }
+        }
+    }
+}
+
+@media(max-width: 320px) {
+    .register__form__3 {
+        .title__register__form {
+            font-size: 20px;
+        }
+    }
+}
+
+.register__form__4 {
+    .edupro-login-container {
+        max-width: inherit;
+    }
+    .message {
+        max-width: 990px;
+        width: 100%;
+        margin: 22px auto 0;
+    }
+    #registration {
+        display: block;
+        font-size: 12px;
+        text-align: center;
+        .row-1,
+        .row-2 {
+            max-width: 1020px;
+            margin: 0 auto;
+            .register__row {
+                max-width: 340px;
+                width: 100%;
+            }
+        }
+        .button {
+            border: none;
+            text-transform: uppercase;
+            font-family: 'roboto';
+            color: $color__white;
+            background: #673ab7;
+            width: 310px;
+            border-radius: 0;
+            transition: all .3s;
+            font-size: 14px;
+            font-weight: 500;
+            &:hover {
+                background: #4b2b86;
+            }
+        }
+        .ftxt {
+            display: block;
+            margin: 0 0 20px;
+            &:after {
+                clear: both;
+                display: block;
+                overflow: hidden;
+                content: "";
+            }
+            i {
+                position: absolute;
+                right: 30px;
+                top: 15px;
+            }
+        }
+        .register__form__register-now p {
+            font-size: 14px;
+            font-family: 'roboto';
+            color: $color__text-screen;
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .register__form__4 .register__row {
+        width: 33% !important;
+    }
+}
+
+@media(max-width: 480px) {
+    .register__form__4 .register__row {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+@media (max-width: 800px) {
+    .registerfixcenter {
+        display: initial !important;
+    }
+    .edupro-login-container {
+        width: 100%;
+    }
+}

@@ -1,0 +1,504 @@
+.header--s1 .site-branding,
+.header--s2 .site-branding {
+	float: right;
+}
+
+.header__cart {
+	float: left;
+	margin-left: -10px;
+	margin-right: 18px;
+}
+
+.header__cart .cart-icon i {
+	padding-right: 10px;
+	border-left: 0;
+	border-right: 1px solid #dedede;
+}
+
+.header__cart .wrapper-items-number {
+	left: auto;
+	right: 20px;
+}
+
+.header__search {
+	float: left;
+	margin-left: 0;
+	margin-right: 45px;
+}
+
+li > ul,
+li > ol {
+	margin-right: 1.5em;
+	margin-left: 0;
+}
+
+header--s3 .container__navbar .header__search {
+	float: left;
+}
+
+/* Menu
+-----------------------------------------------------*/
+.header--s1 .main-navigation,
+.header--s2 .main-navigation {
+	float: left;
+}
+
+.header--s1 .main-navigation li,
+.header--s2 .main-navigation li {
+	margin-left: 0;
+	margin-right: 45px;
+}
+
+
+.main-navigation .menu-item-has-children > a:after,
+.main-navigation .mega-menu-item-has-children > a:after {
+	margin-right: 8px;
+}
+
+.header--s1 .main-navigation .menu-item-has-children > a:after,
+.header--s1 .main-navigation .mega-menu-item-has-children > a:after,
+.header--s2 .main-navigation .menu-item-has-children > a:after,
+.header--s2 .main-navigation .mega-menu-item-has-children > a:after {
+	margin-left: 0;
+}
+
+/* Page title
+-----------------------------------------------------*/
+.page__title {
+	text-align: right;
+}
+.page__banner-top .breadcrumbs {
+	text-align: right;
+}
+
+.fa-angle-right:before {
+	content: "\f104";
+}
+
+/* Shortcode
+-----------------------------------------------------*/
+
+/** Popular Courses **/
+.popular_courses_big .item.popular_courses_s1 .popular_courses_s1__author {
+	padding-right: 0;
+	margin-right: 0;
+	position: relative;
+}
+
+.popular_courses_big .item.popular_courses_s1 .popular_courses_s1__meta:after {
+	right: 0;
+	left: auto;
+}
+
+.popular_courses_big .item.popular_courses_s2 .popular_courses_s2__text .avatar {
+	float: right;
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+/** featured event **/
+.featured-events--s5 .featured-event .featured-event__thumb .featured-event__date,
+.featured-events--s5 .featured-event .featured-event__thumb .featured-event__text {
+	right: 20px;
+	left: auto;
+}
+
+
+/** featured posts **/
+.featured-posts--s4 .lastest-news .lastest-news__text .lastest-news__meta > div {
+	margin-left: 40px;
+	margin-right: 0;
+}
+
+.featured-posts--s4 .lastest-news .lastest-news__text .lastest-news__meta .lastest-news__time:after {
+	left: -20px;
+	right: auto;
+	top: 10px;
+}
+
+.featured-posts--s4 .lastest-news .lastest-news__text .lastest-news__meta .lastest-news__time {
+	float: right;
+}
+.featured-posts--s4 .lastest-news .lastest-news__text .lastest-news__meta i {
+	margin-left: 6px;
+	margin-right: 0;
+	float: right;
+	position: relative;
+	top: 4px;
+}
+
+/* Widgets
+-------------------------------------------------- */
+
+.tagcloud a {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+.widget_product_search button[type="submit"],
+.widget_search button[type="submit"],
+.shop__woocommerce .sidebar__woocommerce form.woocommerce-product-search button {
+	right: auto;
+	left: 0;
+}
+
+.widget_archive li,
+.widget_categories li,
+.widget.widget__category-courses li{
+	float: right;
+	text-align: left;
+	width: 100%;
+}
+
+.widget_archive li a,
+.widget_categories li a,
+.widget.widget__category-courses li a{
+	float: right;
+	margin-left: 5px;
+	margin-right: 0;
+
+}
+
+.edupro_latest_posts .widget__latest_posts_img {
+	margin: -3px 15px 0 20px;
+	float: right;
+}
+
+.widget .cat-item a {
+	margin-left: 5px;
+	margin-right: 0;
+
+}
+.widget__filter-courses li a {
+	padding-left: 0;
+	padding-right: 33px;
+}
+
+.widget__filter-courses li a:before {
+	left: auto;
+	right:0;
+}
+
+.post-type-archive-sfwd-courses .pagination {
+	text-align: right;
+}
+
+.widget_shopping_cart .widget_shopping_cart_content .cart_list.product_list_widget li.empty {
+	text-align: right;
+}
+
+.shop__woocommerce .sidebar__woocommerce .cart_list li a img,
+.shop__woocommerce .sidebar__woocommerce .product_list_widget li a img {
+	float: right;
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+.widget__courses-relation .course-relation__infomation__item .thumbnail {
+	float: right;
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+.widget__contact-info .phone i,
+.widget__contact-info .mail i,
+.widget__contact-info .address i {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+.widget_product_categories .count{
+	float: left;
+}
+
+.footer-widgets .product_list_widget li a img {
+	margin-left: 20px;
+	margin-right: 0;
+	float: right;
+}
+
+.edupro_widget_recent_courses .widget__recent_courses_img {
+	float: right;
+}
+
+.edupro_widget_recent_courses .widget__recent_courses_img {
+	margin: -3px 15px 0 20px;
+}
+
+/* Blog
+--------------------------------------------------*/
+.single__content .blog__content__info ul li,
+.content-list .blog__content .blog__content__info ul li {
+	margin-left: 40px;
+	margin-right: 0;
+}
+
+.single__content .blog__content__info ul li:after,
+.content-list .blog__content .blog__content__info ul li:after{
+	left: -23px;
+	right: auto;
+}
+
+blockquote {
+	text-align: right;
+	border-right: 5px solid #eee;
+	border-left: 0;
+
+}
+
+.content-list .blog__content .blog__content__date,
+.content-list .blog__content .blog__content__readmore {
+	float: right;
+}
+
+.main__content__author .avatar {
+	float: right;
+}
+.main__content__line ul.socials li {
+	margin-left: 15px;
+	margin-right: 0;
+}
+
+.tags-links {
+	float: left;
+}
+
+.comment-author  {
+	float: right;
+}
+
+.comment-author img {
+	margin-right: 0;
+	margin-left: 30px;
+}
+
+.comment-content .author__comment,
+.comment-content .reply__comment {
+	text-align: right;
+	float: right;
+}
+.comment-content .author-name {
+	float: right;
+}
+
+.comment-content .reply__comment .reply {
+	float: left;
+}
+.comment-content .author__comment .author__rating {
+	float: left;
+}
+
+.comment-list li.comment ol.children {
+	margin-left: 0;
+	margin-right: 60px;
+}
+
+/* Courses
+------------------------------------------- */
+.content__orderby span i {
+	margin-left: 5px;
+	margin-right: 0;
+}
+
+.content__orderby span {
+	border-left: 2px solid #dedede;
+	border-right: 0;
+}
+
+.content__orderby span:last-child {
+	border: 0;
+}
+
+.archive .featured-course .featured-course__text .avatar {
+	float: right;
+	margin-right: 0;
+	margin-left: 10px;
+}
+.single-sfwd-courses .single__head .page__title {
+	text-align: center;
+}
+
+.nav-tabs>li {
+	float: right;
+}
+
+.sidebar-single .inline.student__infomation .student-avatar img {
+	margin-left: 18px;
+	margin-right: 0;
+}
+
+.single-sfwd-courses .sidebar-single .inline.author__infomation img {
+	margin-left: 17px;
+	margin-right: 0;
+}
+
+.single-sfwd-courses .sidebar-single .inline.student__infomation .student-avatar img:nth-child(4n) {
+	margin-left: 0;
+}
+
+.single-sfwd-courses .edupro_topic_dots ul.edupro-topic .topic_title {
+	margin-left: 54px;
+	margin-right: 0;
+	float: right;
+}
+
+.single-sfwd-courses .edupro_topic_dots ul.edupro-topic li i {
+	margin-left: 8px;
+	margin-right: 0;
+}
+
+.single-sfwd-courses .edupro_topic_dots ul.edupro-topic .topic-notcompleted span.topic_time {
+	float: left;
+}
+
+.single .single__box > div i {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.single .single__box > div {
+	border-left: 1px solid #dedede;
+	border-right: 0;
+}
+
+.single .single__box > div:last-child {
+	border-left: none;
+}
+
+.ratingCircle {
+	float: right;
+}
+
+.rating-breakdown__meter {
+	float: right;
+}
+
+.single-sfwd-courses .rating-breakdown__key {
+	float: right;
+	margin-left: 45px;
+	margin-right: 0;
+}
+
+.single-sfwd-courses .rating-breakdown__count {
+	margin-left: 0;
+	margin-right: 30px;
+}
+
+/* Event
+------------------------------------------------------------------------ */
+
+.archive .grid-main .featured-event__date,
+.post-type-archive-event .grid-main .edupro-event-desc:before{
+	left: auto;
+	right:0
+}
+
+.archive .grid-main .featured-event__text {
+	text-align: right;
+}
+
+.archive .grid-main .featured-event__time {
+	padding-right:0;
+	margin-right: 0;
+	padding-left: 24px;
+	margin-left: 20px;
+}
+
+.archive .grid-main .featured-event__time:after {
+	left: 0;
+	right:auto;
+}
+
+.post-type-archive-event .grid-main .featured-event__time i,
+.post-type-archive-event .grid-main .featured-event__location i {
+	margin-left: 5px;
+	margin-right: 0;
+}
+.single main__content .heading .heading__title {
+	text-align: right;
+	float: right;
+	width: 100%;
+}
+
+.single main__content  .heading .heading__line ,
+.single main__content  .heading .heading__line > div {
+	float: right;
+}
+
+/* Portfolio
+---------------------------------------------------------- */
+.projects.masonry .project .project__image .project__term-name .fa {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+	text-align: left;
+}
+
+.single-jetpack-portfolio .post-navigation .nav-links .nav-previous i {
+	margin-right: 7px;
+	float: left;
+	position: relative;
+	top: 6px;
+}
+
+.single-jetpack-portfolio .post-navigation .nav-links .nav-next i {
+	margin-left: 7px;
+	float: right;
+	position: relative;
+	top: 6px;
+}
+
+.woocommerce .woocommerce-product-rating .star-rating {
+	margin: .5em 0 0 4px;
+	float: right;
+}
+
+.woocommerce.single-product .summary .woocommerce-product-rating:after {
+	left: auto;
+	right:0
+}
+
+.woocommerce div.product form.cart div.quantity {
+	float: right;
+	margin: 0 0 0 4px;
+}
+.woocommerce div.product form.cart .button {
+	float: right;
+	margin-left: 0;
+	margin-right: 20px;
+}
+
+.reviews_tab .count-reviews {
+	float: left;
+}
+
+.woocommerce #reviews #comments ol.commentlist li img.avatar {
+	float: right;
+	left: auto;
+	right: 0;
+}
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text {
+	margin-left: 0;
+	margin-right: 105px;
+}
+
+.woocommerce #review_form #respond .form-submit {
+	text-align: right;
+}
+
+.woocommerce.single-product .summary [itemprop="description"] ul {
+	margin-left: 0;
+	margin-right: 18px;
+}
+
+.woocommerce.single-product .summary .product_meta .product-meta-title {
+	float: right;
+}
+.woocommerce .star-rating {
+	float: left;
+}
